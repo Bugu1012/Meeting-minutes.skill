@@ -1,4 +1,4 @@
-<div align="center">
+﻿<div align="center">
   <h1>会议纪要智能整理技能</h1>
   <p><strong>把杂乱会议记录整理为事实可追溯、结论可核验、风险可审查的会议纪要</strong></p>
   <p>会前提示　·　记录整理　·　结论核定　·　纪要成稿　·　公开审查</p>
@@ -105,6 +105,10 @@
 3. **质询核定**：遇到不能猜的问题，每次只追问一个最上游缺口。
 4. **双向回查**：既从纪要回查原文，也从原文反查纪要是否遗漏最终归纳。
 
+### 内部评分量表
+
+起草和审查完成后按 6 维度 100 分自评：事实可追溯（25）、结论强度准确（20）、议题覆盖完整（20）、责任程序闭环（15）、语言自然（10）、文种格式（10）。低于 80 分需改写对应段落，低于 60 分需重建结构。审查清单中的严重问题无论评分多高都视为不通过。
+
 ## 全流程能力
 
 - **会前记录提示**：根据具体议题提示应重点记录的主持人归纳、结论强度、责任主体、时限、程序和敏感信息。
@@ -115,17 +119,20 @@
 - **事实证据回查**：通过事实台账和最小语义覆盖表，使重要表述能够回到原始材料。
 - **质询式澄清**：对不能合理推断的上游问题逐项追问，优先解决证据、权限、用途和公开边界。
 - **公文语言自然化**：在事实锁定后删除机械套话、重复评价和空泛结尾，使语言更顺畅，但不改变事实。
+- **执行闭环与督办反馈**：议定事项对应责任单位、时限、成果形态和反馈要求，后续要求覆盖跟踪督办、办理反馈、归档和对外口径。
 - **公开风险隔离**：将公开净稿与内部核验附注、脱敏映射物理分离，避免内部信息随文公开。
 - **真实样例校准**：使用政府网站公开纪要校准结构和体例，同时禁止把样例事实带入当前会议。
 
 ## 适用范围
 
-当前支持以下四类会议纪要：
+当前支持以下六类会议纪要：
 
 - 政府常务会议纪要
 - 专题会议纪要
 - 办公会议纪要
 - 议事协调会议纪要
+- 联席/会商会议纪要
+- 座谈/研讨会议纪要
 
 可接收的材料包括：
 
@@ -243,6 +250,7 @@ meeting-minutes/
 │   ├── 要素与审查清单.md
 │   ├── 真实公开样例索引.csv
 │   ├── 样例索引使用说明.md
+│   ├── 版式与字体.md
 │   ├── 开源技能参考借鉴.md
 │   └── 资料导航.md
 └── assets/
@@ -305,5 +313,8 @@ meeting-minutes/
 - [onlyLT/wow-gongwen-writing](https://github.com/onlyLT/wow-gongwen-writing)：公文写作与会议纪要工作流参考。
 - [blader/humanizer](https://github.com/blader/humanizer)：文本自然化审查思路参考。
 - [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)：中文文本自然化方法参考。
+- [Liuxiangjian-ai/official-document-skill](https://github.com/Liuxiangjian-ai/official-document-skill)：评分量表、AI 痕迹清单、对照示例和判断强度表参考。
+- [KaguraNanaga/official-document-writing-skill](https://github.com/KaguraNanaga/official-document-writing-skill)：GB/T 9704-2012 版式参数和质量检查清单结构参考。
+- [zhaohui-yang/official-document-drafting](https://github.com/zhaohui-yang/official-document-drafting)：纪要类型五分法、执行闭环、督办反馈、防编造集中化和要素分层参考。
 
 对公开项目的吸收以政府公文事实保真为前提，具体采用和排除规则见 `references/开源技能参考借鉴.md` 与 `references/自然化方法来源与适配.md`。
