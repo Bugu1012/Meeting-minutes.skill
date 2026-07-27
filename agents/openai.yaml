@@ -1,0 +1,4 @@
+interface:
+  display_name: "会议纪要"
+  short_description: "会前提示记录重点，会后从杂乱记录提炼并润色会议纪要"
+  default_prompt: "使用 $meeting-minutes 先识别会议阶段；会前生成记录提示卡，会后从普通会议记录中提取事实、议定事项、责任分工和后续程序，并在事实锁定后起草、润色或审查会议纪要。"
